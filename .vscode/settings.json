@@ -1,0 +1,18 @@
+{
+    "emmet.excludeLanguages": [
+    
+        "markdown"
+    ],
+
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "bracketPairColorizer.activeScopeCSS": [
+
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 0.5"
+    ],
+    "editor.formatOnSave": true
+     
+}
