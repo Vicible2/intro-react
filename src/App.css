@@ -1,0 +1,26 @@
+body {
+  background-image: url(https://i.redd.it/lfndtoirttvx.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+}
+.App {
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+  color: white;
+}
+.basicHeader {
+  text-align: center;
+}
+.basicForm {
+  padding: 15px;
+}
