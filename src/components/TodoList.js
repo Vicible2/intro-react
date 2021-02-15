@@ -3,7 +3,7 @@ import React from "react";
 const TodoList = () => {
   return (
     <div>
-      <ul>
+      <ul className="formOptions">
         <li>
           {" "}
           <input type="checkbox" name="todoListItem" id="todoItem1" /> Todo 1

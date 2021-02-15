@@ -18,6 +18,9 @@ body {
   border-radius: 1rem;
   color: white;
 }
+.formOptions {
+  list-style-type: none;
+}
 .basicHeader {
   text-align: center;
 }
