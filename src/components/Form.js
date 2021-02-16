@@ -6,13 +6,18 @@ const Form = ({ setInputText }) => {
     console.log(e.target.value); // e = event (onChange on input, e.target = input field, e.target.value = value of input field on change (every keystroke))
     setInputText(e.target.value); // Passes on target.value (input text) to App.js
   };
+  const submitTodoHandler = (e) => {
+    e.preventDefault();
+  };
   return (
     <div className="basicForm">
       <form action="">
         <input onChange={inputTextHandler} type="text" />
         {/* Everytime our input changes, the inputTextHandler function is ran */}
         <br />
-        <button type="submit">Add to (do) list</button>
+        <button type="submit" onClick={submitTodoHandler}>
+          Add to (do) list
+        </button>
         <button>Clear todo list</button>
       </form>
       <div className="leftTodo">
