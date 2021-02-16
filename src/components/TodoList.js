@@ -1,6 +1,7 @@
 import React from "react";
 
 const TodoList = () => {
+  const todos = ["My first todo", "My second todo"];
   return (
     <div>
       <ul className="fullTodoList">
