@@ -12,9 +12,15 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Form setInputText={setInputText} />
+      {/* export useState parameters to components */}
+      <Form
+        todos={todos}
+        setTodos={setTodos}
+        inputText={inputText}
+        setInputText={setInputText}
+      />
       {/* give access to setInputText inside of form.js through props*/}
-      <TodoList inputText={inputText} />
+      <TodoList />
     </div>
   );
 }
