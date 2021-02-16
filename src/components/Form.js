@@ -5,7 +5,7 @@ const Form = () => {
     <div className="basicForm">
       <form action="">
         <input type="text" />
-        <button type="submit">Add todo</button>
+        <button type="submit">Add to (do) list</button>
       </form>
     </div>
   );
