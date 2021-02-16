@@ -19,7 +19,7 @@ body {
   border-radius: 1rem;
   color: white;
 }
-.formOptions {
+.fullTodoList {
   list-style-type: none;
 }
 .basicHeader {
