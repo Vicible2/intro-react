@@ -20,7 +20,7 @@ function App() {
         setInputText={setInputText}
       />
       {/* give access to setInputText inside of form.js through props*/}
-      <TodoList />
+      <TodoList todos={todos} setTodos={setTodos} />
     </div>
   );
 }

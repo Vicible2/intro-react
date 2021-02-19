@@ -1,13 +1,14 @@
 import React from "react";
 
-const Todo = () => {
+const Todo = ({ text, todos, setTodos }) => {
+  //Events
+  const deleteHandler = () => {};
   return (
     <div className="todo">
       <li className="todo-item">
         <input type="checkbox" name="" id="" />
-        <i>Todo</i>
+        <i>{text}</i>
         <button className="trash-btn">
-          {" "}
           <i className="fas fa-trash-alt"></i>
         </button>
       </li>
