@@ -9,6 +9,7 @@ import TodoList from "./components/TodoList";
 function App() {
   const [inputText, setInputText] = useState(""); // [inputText = current state/default state, setInputText = update of currentstate]
   const [todos, setTodos] = useState([]); // State for todolist itsself
+
   return (
     <div className="App">
       <Header />

@@ -9,6 +9,17 @@ const Form = ({ inputText, setInputText, todos, setTodos }) => {
   };
   const submitTodoHandler = (e) => {
     e.preventDefault();
+    // 0 => previousTodos ([todo1,todo2,todo3,...])
+    // 1 => newTodo
+    //...todos breaks up the subarray into every element like example 2
+
+    // console.log(todos);
+    // console.log(...todos);
+
+    // 0 => todo1
+    // 1 => todo2
+    // 2 => todo3
+    // 3 => newTodo
     setTodos([
       ...todos,
       { text: inputText, completed: false, id: Math.random() * 1000 }, //... notation = if there were todos previously, add new setTodos after them(to not replace them)
